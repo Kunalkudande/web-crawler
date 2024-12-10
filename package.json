@@ -1,0 +1,22 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "async": "^3.2.6",
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.4.1",
+    "nodemon": "^3.1.7",
+    "puppeteer": "^23.10.1"
+  }
+}
